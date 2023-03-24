@@ -1,0 +1,62 @@
+body{
+    box-sizing: border-box;
+    margin: o;
+    padding: 0;
+    background-color: #24252A;
+    text-align: center;
+}
+section{
+    word-spacing: 2px;
+    text-align: center;
+    font-family: serif;
+    background-color: white;
+    border: #1f2d78 solid 2px;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 40px;
+    display: inline-block;
+    align-content: center;
+}
+.username{
+    margin: 10px;
+    padding: 10px;
+    border: gray groove 2px;
+    border-radius: 10px;
+}
+.username:hover{
+    border: rgb(109, 109, 221) solid;
+    color: white;
+    background-color: rgb(109, 109, 221);
+
+}
+.password{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: rgb(109, 109, 221) groove 2px;
+}
+.password:hover{
+    border: rgb(109, 109, 221) groove 2px;
+    white-space: inherit;
+    color: white;
+    background-color: rgb(109, 109, 221);
+}
+button{
+    color: white;
+    background-color: #B72C2C;
+    border: rgb(109, 109, 221);
+    border-radius: 10px;
+    margin: 0px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'serif';
+    cursor: pointer;
+    width: 25%;
+
+    
+}
+/*button:is(:hover, :focus){
+    background-color: rgb(109, 109, 221);
+    outline: 1px groove rgb(109, 109, 221);
+    outline-offset: 1px;
+}*/

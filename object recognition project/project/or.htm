@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Multiple object detection using pre trained model in TensorFlow.js</title>
+    <meta charset="utf-8">
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="or.css">
+  </head>  
+  <body>
+
+<div>
+<img src="logo.png" width="400px">
+
+<br>
+<p>
+</div>
+    <h1>Multiple object Recognition</h1>
+
+    
+    <section id="demos" class="invisible">
+
+        <h4>INSTRUCTIONS:</h4>
+        <p>Wait for the page to load before clicking the button to enable the webcam - at which point it will become visible to use soon.</p>
+    <br>
+      <p>Hold some objects up close to your webcam to get a real-time classification! When ready click "enable webcam" below and accept access to the webcam when the browser asks</p>
+      
+      <div id="liveView" class="camView">
+        <button id="webcamButton">Enable Webcam</button>
+        <video id="webcam" autoplay muted width="640" height="480"></video>
+      </div>
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></script>
+    <!-- Load the coco-ssd model to use to recognize things in images -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    
+    
+    <script src="or.js" defer></script>
+  </body>
+</html>

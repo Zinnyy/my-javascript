@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 17 Nov 2022 19:23:52 at http://minia-v-light.react.themesbrand.com/dashboard +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://minia-v-light.react.themesbrand.com/dashboard -O1 "C:\Users\HP\javascript ninja\Ecom" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:27:22	Warning: 	File not parsed, looks like binary: minia-v-light.react.themesbrand.com/static/media/fa-brands-400.31015e861aeb30ff8355.woff2
+19:27:23	Warning: 	File not parsed, looks like binary: minia-v-light.react.themesbrand.com/static/media/fa-regular-400.c52405129ae48097815d.woff2
+19:27:23	Warning: 	File not parsed, looks like binary: minia-v-light.react.themesbrand.com/static/media/fa-solid-900.9451d5fee89b51a20f8a.woff2
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 36 seconds : 40 links scanned, 38 files written (14598755 bytes overall) [6784991 bytes received at 31411 bytes/sec], 10503268 bytes transferred using HTTP compression in 11 files, ratio 25%, 1.7 requests per connection
+(No errors, 3 warnings, 0 messages)

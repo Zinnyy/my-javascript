@@ -1,0 +1,6 @@
+[
+    { "time" : "7:30", "todo": "wake up"},
+    {"time": "8:30", "todo": "go to school"},
+    {"time": "12:00", "todo": "eat lunch"},
+    {"time": "2:30", "todo": "get back home"}
+]
